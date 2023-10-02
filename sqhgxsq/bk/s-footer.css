@@ -1,0 +1,151 @@
+footer {
+  width: 100%;
+  background-color: rgb(39, 40, 44);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+footer>div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.liebiao {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.liebiao-a {
+  margin: 50px 20px;
+}
+
+.liebiao ul {
+  color: white;
+  list-style: none;
+}
+
+.liebiao h1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.liebiao li,
+.liebiao a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgb(170, 170, 170);
+}
+
+.liebiao li:hover,
+.liebiao a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.tubiao {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.tubiao>div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.tubiao svg {
+  width: 40px;
+  height: 40px;
+  color: rgb(170, 170, 170);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.tubiao a {
+  text-align: center;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 45px;
+  height: 45px;
+}
+
+.tubiao a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.last-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.last-b>button {
+  margin: 10px 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border: 0px solid;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.last-b>button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.last-jieshao {
+  color: rgb(180, 180, 180);
+  width: 100%;
+  text-align: left;
+}
+
+.last-jieshao:last-child {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+
+.last-jieshao>ul {
+  list-style: none;
+}
+
+.jieshao {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: center;
+}
