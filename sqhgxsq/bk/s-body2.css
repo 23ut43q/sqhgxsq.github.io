@@ -1,0 +1,36 @@
+.sele-wd {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex: 0 1 auto;
+}
+
+.sele-wd>div button {
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border-left-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 2px;
+  color: white;
+  border-style: solid;
+  border-color: rgb(125, 126, 128);
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sele-wd>div p {
+  color: rgb(191, 184, 178);
+  font-size: 18px;
+}
+
+.sele-wd>div button:hover {
+  border-color: rgb(255, 255, 255);
+}
