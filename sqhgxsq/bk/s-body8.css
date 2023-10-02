@@ -1,0 +1,110 @@
+.lastbody {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  background-image: linear-gradient(180deg, rgb(155, 75, 255),
+      rgb(107, 87, 255));
+}
+
+.lastbody>div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.lastbody>div>h2:nth-child(1) {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.gengduo {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.gengduo>div {
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-color: rgb(48, 48, 51);
+}
+
+.gengduo>div:nth-child(1)>div {
+  background-image: url(https://www.jetbrains.com/img/banners-home-page/dog-fooding.svg);
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 50px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.gengduo>div:nth-child(2)>div {
+  background-image: url(https://www.jetbrains.com/img/banners-home-page/annual-highlights-icon.svg);
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 50px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.gengduo>div:nth-child(3)>div {
+  background-image: url(https://www.jetbrains.com/img/banners-home-page/dev-eco.svg);
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 50px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.gengduo>div h4 {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+
+.gengduo>div h3 {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(180, 180, 180);
+}
+
+.gengduo>div a {
+  position: absolute;
+  top: 230px;
+  margin-left: 30px;
+  line-height: 70px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
