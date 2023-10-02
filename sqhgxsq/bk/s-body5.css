@@ -1,0 +1,27 @@
+.subject-b {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  flex: 0 1 auto;
+}
+
+.subject-b button {
+  margin: 10px;
+  height: 40px;
+  border-radius: 50px;
+  color: black;
+  width: 80px;
+  font-size: 18px;
+  border: 0 solid rgba(0, 0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: all 0.1s;
+}
+
+.subject-b button:hover {
+  cursor: pointer;
+  background-color: rgb(210, 210, 210);
+}
