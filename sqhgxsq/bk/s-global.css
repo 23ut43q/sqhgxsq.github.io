@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: var(--rs-font-family-headers, var(--rs-font-family-jb-sans, "JetBrains Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Droid Sans", "Helvetica Neue", Arial, sans-serif));
 }
 
 body {
