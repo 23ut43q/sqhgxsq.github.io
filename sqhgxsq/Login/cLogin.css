@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.icon-f {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/数字化高中.png);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+header>div {
+  width: 350px;
+  height: 450px;
+  background-color: rgba(22, 27, 34, 0.2);
+  border: 1px solid rgb(43, 49, 56);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+header>div>div {
+  backdrop-filter: blur(10px);
+  background-image: radial-gradient(circle at 540px 100px,
+      rgba(175, 70, 255, 1),
+      rgba(27, 0, 97, 1),
+      rgba(190, 103, 52, 1));
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+header>div>div h2 {
+  line-height: 100px;
+  color: white;
+  font-size: 28px;
+}
+
+header>div>div label {
+  display: block;
+  line-height: 50px;
+  color: white;
+  font-size: 18px;
+}
+
+header>div>div>div:nth-child(2) {
+  width: 80%;
+}
+
+#-account {
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 1px solid rgb(54, 59, 68);
+  width: 90%;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  height: 35px;
+  padding: 5px;
+}
+
+#-account::placeholder,
+#-password::placeholder {
+  font-size: 16px;
+  color: rgb(165, 165, 165);
+}
+
+#-password {
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 1px solid rgb(54, 59, 68);
+  width: 90%;
+  color: white;
+  font-size: 16px;
+  height: 35px;
+  padding: 5px;
+}
+
+header>div>div>div:nth-child(3) {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+header>div>div>div:nth-child(4) {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header>div>div>div:nth-child(4) button {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(70, 70, 70);
+  background-color: rgba(45, 51, 59, 0.3);
+  transition: all 0.2s;
+}
+
+header>div>div>div:nth-child(4) button:hover {
+  border: 1px solid rgb(194, 194, 194);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
