@@ -1,0 +1,25 @@
+.andIntorduce {
+  margin-top: 100px;
+  width: 900px;
+}
+
+.andIntorduce h2,
+.andIntorduce a {
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.andIntorduce a {
+  border: 1px solid rgb(142, 143, 145);
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 2px;
+}
+
+.andIntorduce a:hover {
+  border-color: white;
+}
