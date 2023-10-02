@@ -1,0 +1,21 @@
+.intorduce>h2:nth-child(1) {
+  margin-top: 25px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  line-height: 49px;
+  font-size: 46px;
+  color: white;
+}
+
+.intorduce>h2:nth-child(2) {
+  margin: 10px 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 22px;
+  color: white;
+}
+
+.intorduce {
+  width: 900px;
+}
