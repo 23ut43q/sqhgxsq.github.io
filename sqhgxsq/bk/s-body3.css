@@ -1,0 +1,185 @@
+.libraryLogo {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  flex: 0 1 auto;
+}
+
+.libraryLogo>div:nth-child(1) {
+  width: 900px;
+  height: 500px;
+  background-image: url(../img/board1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.libraryLogo>div:nth-child(1)>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(125deg,
+      rgba(22, 25, 38, 1) 25%,
+      rgba(30, 35, 58, 0.5) 40%,
+      rgba(34, 36, 51, 0) 60%,
+      rgba(34, 36, 51, 0));
+}
+
+.libraryLogo>div:nth-child(2) {
+  width: 450px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+}
+
+.libraryLogo>div:nth-child(2)>div:nth-child(1)>div {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(145deg,
+      rgba(163, 50, 174, 1) 25%,
+      rgba(88, 51, 202, 1));
+  border-radius: 20px;
+}
+
+.libraryLogo>div:nth-child(2)>div:nth-child(1) {
+  width: 100%;
+  height: 48%;
+  border-radius: 20px;
+}
+
+.libraryLogo>div:nth-child(2)>div:nth-child(2)>div {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(145deg,
+      rgba(5, 7, 48, 1) 5%,
+      rgb(6, 33, 112) 20%,
+      rgb(54, 131, 248));
+  border-radius: 20px;
+}
+
+.libraryLogo>div:nth-child(2)>div:nth-child(2) {
+  width: 100%;
+  height: 48%;
+  border-radius: 20px;
+}
+
+/* 它里面的字体 */
+
+.l-text1>h2:nth-child(1) {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+
+  position: relative;
+  left: 45px;
+  top: 40px;
+}
+
+.l-text1>h2:nth-child(2) {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+
+  position: relative;
+  left: 45px;
+  top: 43px;
+}
+
+.l-text1 button {
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0px solid rgba(0, 0, 0, 0);
+  transition: all 0.1s;
+  position: relative;
+  left: 45px;
+  top: 200px;
+}
+
+.l-text2 button {
+  width: 90px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  transition: all 0.1s;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
+.l-text3 button {
+  width: 90px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  transition: all 0.1s;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
+.l-text1 button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.l-text2 button:hover,
+.l-text3 button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.l-text2 h2:nth-child(1) {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+.l-text2 h2:nth-child(2) {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.l-text3 h2:nth-child(1) {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+.l-text3 h2:nth-child(2) {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
