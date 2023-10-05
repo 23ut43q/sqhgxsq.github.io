@@ -1,0 +1,22 @@
+.img-slide:nth-child(1) {
+  width: 100%;
+  /* background-image: url(./ZHONGQIU.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; */
+}
+
+.img-slide:nth-child(2) {
+  width: 100%;
+  /* background-image: url(./s6512a94909681.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; */
+}
+
+.imgBox {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+}

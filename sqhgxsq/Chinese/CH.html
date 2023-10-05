@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语文</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="c1.css">
+    <link rel="stylesheet" href="c2.css">
+  </head>
+  <body>
+    <div class="top-bar"></div>
+    <div class="sticky">
+      <header>
+        <div class="icon" onclick="window.location.href='../bk/Main.html'"></div>
+        <h1>腹有诗书气自华</h1>
+      </header>
+    </div>
+    <div class="imgBox">
+      <!-- <div class="img-slide"></div>
+      <div class="img-slide"></div> -->
+      <img class="img-slide" src="./s6512a94909681.jpg" alt="1">
+      <img class="img-slide" src="./ZHONGQIU.png" alt="2">
+    </div>
+  </body>
+  <script type="text/javascript">
+    // index：索引， len：长度
+    var index = 0, len;
+    // 类似获取一个元素数组
+    var imgBox = document.getElementsByClassName("img-slide");
+    len = imgBox.length;
+    imgBox[index].style.display = 'block';
+    // 逻辑控制函数
+    function slideShow() {
+        index ++;
+        // 防止数组溢出
+        if(index >= len) index = 0;
+        // 遍历每一个元素
+        for(var i=0; i<len; i++) {
+            imgBox[i].style.display = 'none';
+        }
+        // 每次只有一张图片显示
+        imgBox[index].style.display = 'block';
+    }
+    
+    // 定时器，间隔3s切换图片
+    setInterval(slideShow, 3000);
+    
+</script>
+</html>
