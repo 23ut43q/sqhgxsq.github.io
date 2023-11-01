@@ -1,25 +1,65 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1.0,user-scalable=no">
-    <meta name="description"
-      content="  河南省商丘市回高学生区，专属于学生的回高官网！这里有及时的新闻，海量回高最新消息，内容来自回高官网的直接搬运，与商丘回高官网信息实现同步共享！你想了解的都在这里，美丽回高欢迎您！">
-    <meta name="keywords" content="回高,商丘市回民中学,回民高中,商丘市回高,回民高级中学,河南回高,回中,商丘市回民高中">
-    <title>商丘回高 【欢迎登录】</title>
-    <link rel="stylesheet" href="./Login/cLogin.css">
-  </head>
-  <body>
-    <div class="b1" onclick="window.location.href='./bk/Main.html'">
-      <div></div>
-      <div></div>
-      <div></div>
-      <h1>进入真·官网</h1>
-    </div>
-  </body>
-</html>
 
-<!-- <div class="icon-f"><div class="icon"
-  onclick="window.location.href='http://www.sqshmzx.net/'"></div></div>
-<div> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="zh-cn">
+      <meta charset="UTF-8">
+      <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,user-scalable=no">
+      <meta name="description"
+        content="  河南省商丘市回高学生区，专属于学生的回高官网！这里有及时的新闻，海量回高最新消息，内容来自回高官网的直接搬运，与商丘回高官网信息实现同步共享！你想了解的都在这里，美丽回高欢迎您！">
+      <meta name="keywords"
+        content="回高,商丘市回民中学,回民高中,商丘市回高,回民高级中学,河南回高,回中,商丘市回民高中">
+
+      <title>商丘回高 【欢迎登录】</title>
+      <link rel="stylesheet" href="style.css" />
+      <style>
+        .a{
+          width: 300px;
+          height: 100%;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="a">
+        <div class="container" onclick="window.location.href='./bk/Main.html'"
+          style="cursor: pointer;">
+          <div class="cloud">
+            <h2>--进入回高真·官网--</h2>
+          </div>
+        </div>
+      </div>
+
+      <script>
+      const randomText = () => {
+        const text = "!@#$%^&*()_+商丘0123456789回高真官网QWERTYUI[]asdfghjkl;'zxcvbnm,./",
+          letters = text[Math.floor(Math.random() * text.length)];
+        return letters;
+      };
+
+      const rain = () => {
+        const cloud = document.querySelector(".cloud"),
+          e = document.createElement("div");
+        e.classList.add("drop");
+        cloud.appendChild(e);
+        const left = Math.floor(Math.random() * 290),
+          size = Math.random() * 1.5,
+          duration = Math.random() * 1;
+
+        e.innerText = randomText();
+        e.style.left = left + "px";
+        e.style.fontSize = 0.5 + size + "em";
+        e.style.animationDuration = 1 + duration + "s";
+
+        setTimeout(() => {
+          cloud.removeChild(e);
+        }, 2000);
+      };
+
+      setInterval(() => {
+        rain();
+      }, 20);
+    </script>
+    </body>
+  </html>
