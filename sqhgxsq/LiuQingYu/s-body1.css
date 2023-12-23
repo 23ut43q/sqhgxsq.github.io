@@ -1,0 +1,26 @@
+.liu {
+  margin-top: 50px;
+  width: 414px;
+  height: 390px;
+}
+
+.liu>div {
+  width: 414%;
+  height: 390px;
+  background-image: url(https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/liuqingyu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1 solid black;
+  border-radius: 10px;
+}
+
+.pinglun {
+  width: 80%;
+  background-color: rgba(132, 212, 230, 0.5);
+  border-color: aqua;
+  border-width: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px rgb(67, 142, 255);
+}
