@@ -13,7 +13,7 @@
 .libraryLogo>div:nth-child(1) {
   width: 900px;
   height: 500px;
-  background-image: url(https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/liuqingyu.png);
+  background-image: url(https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/sqhgxsq/img/board1.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -26,8 +26,8 @@
   height: 100%;
   border-radius: 20px;
   background-image: linear-gradient(125deg,
-      rgba(22, 25, 38, 1) 25%,
-      rgba(30, 35, 58, 0.5) 40%,
+      rgba(22, 25, 38, 1) 20%,
+      rgba(30, 35, 58, 0.5) 50%,
       rgba(34, 36, 51, 0) 60%,
       rgba(34, 36, 51, 0));
 }
@@ -62,17 +62,21 @@
 .libraryLogo>div:nth-child(2)>div:nth-child(2)>div {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(145deg,
-      rgba(5, 7, 48, 1) 5%,
-      rgb(6, 33, 112) 20%,
-      rgb(54, 131, 248));
   border-radius: 20px;
+  background-image: linear-gradient(145deg,
+      rgb(5, 0, 19, 0.9) 20%,
+      rgba(242, 255, 2, 0.2) 55%,
+      rgb(54, 131, 248, 0.5) 70%,
+      rgb(54, 131, 248, 0));
 }
 
 .libraryLogo>div:nth-child(2)>div:nth-child(2) {
   width: 100%;
   height: 48%;
   border-radius: 20px;
+  background-image: url(https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/xinjiaoxuelou.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* 它里面的字体 */
