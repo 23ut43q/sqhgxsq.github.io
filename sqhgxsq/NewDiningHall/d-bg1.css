@@ -1,0 +1,34 @@
+body {
+  overflow: hidden;
+}
+
+._1_bgi {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg,
+      rgb(54, 94, 184),
+      rgb(2, 204, 243),
+      rgb(31, 97, 202),
+      rgb(122, 234, 255),
+      rgb(15, 74, 136),
+      rgb(31, 41, 129),
+      rgb(81, 9, 33),
+      rgb(11, 189, 240),
+      rgb(193, 51, 224));
+  background-size: 500% 500%;
+  animation: gradient-move 60s infinite;
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
