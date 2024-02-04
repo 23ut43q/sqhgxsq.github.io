@@ -361,13 +361,13 @@
           <div class="liebiao-a">
             <ul>
               <h1>学校及公司</h1>
-              <li><a href>关于我们</a></li>
-              <li><a href>联系方式</a></li>
-              <li><a href>招纳贤士</a></li>
-              <li><a href>新闻</a></li>
-              <li><a href>合作伙伴和经营商</a></li>
-              <li><a href>校园招生</a></li>
-              <li><a href>公司资产</a></li>
+              <li><a onclick="showDialog()">关于我们</a></li>
+              <li><a onclick="showDialog()">联系方式</a></li>
+              <li><a onclick="showDialog()">招纳贤士</a></li>
+              <li><a onclick="showDialog()">新闻</a></li>
+              <li><a onclick="showDialog()">合作伙伴和经营商</a></li>
+              <li><a onclick="showDialog()">校园招生</a></li>
+              <li><a onclick="showDialog()">公司资产</a></li>
             </ul>
           </div>
         </div>
@@ -386,8 +386,8 @@
             </a>
           </div>
           <div class="last-b">
-            <button type="button">政务机关</button>
-            <button type="button">校内链接</button>
+            <button type="button" onclick="showDialog()">政务机关</button>
+            <button type="button" onclick="showDialog()">校内链接</button>
           </div>
         </div>
         <div class="jieshao">
@@ -408,12 +408,19 @@
       </div>
     </footer>
     <!--  -->
+    <!--  -->
+  <div id="myDialog" onclick="closeDialog()" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background-color:#dc917400;border-radius: 10px;color: rgba(255, 255, 255, 0);border: 3px solid #d6856800;">
+    <img src="../bk/PixPin_2024-02-04_21-15-46.png" alt="二维码加载中..." style="width: 50%;height: 50%;display: inline-block;margin-left: 50%;">
+    <h1 style="color: white;-webkit-text-stroke: 1px black;font-size: 36px;position: relative;top: -300px;">点击二维码关闭</h1>
+  </div>
+  <!--  -->
   </body>
+<script src="../bk/warn.js"></script>
 </html>
 <!-- 
   咱滴官网好难看哦，而且还没啥功能，感觉没有特色，很死板，很僵硬。
  -->
 <!-- 
-  你瞅瞅人家清华大学，官网多好看呀，再看看咱的，丑死~啥玩意都没有~你再瞅瞅这个：https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/sqhgxsq/bk/Main.html
+  你瞅瞅人家清华大学，官网多好看呀，再看看咱的，丑死~啥玩意都没有~你再瞅瞅这个：https://23ut43q.github.io/sqhgxsq.github.io/sqhgxsq/bk/Main.html
 这个网站是我做的一个小项目，小小整活不足挂齿~[doge]咱官网连个图标都没有像啥样。我这个都有图标，把官网改好点到时候能给其他学校的装13.哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈。有事发邮箱：“2303058330@qq.com”  告辞~
  -->
