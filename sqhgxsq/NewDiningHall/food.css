@@ -15,8 +15,9 @@
   list-style-type: none;
 }
 
-.food-2>ul>li>div {
-  margin: 30px;
+.fo1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: rgb(250, 250, 250);
   width: 100%;
   height: 300px;
