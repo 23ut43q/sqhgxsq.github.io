@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .box_1 {
   position: relative;
   top: -100px;
