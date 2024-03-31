@@ -11,6 +11,10 @@
 
 }
 
+* {
+  font-family: Rajdhani;
+}
+
 .big {
   width: 60%;
   height: 30vh;
@@ -25,9 +29,11 @@
 
 .txt {
   color: rgb(0, 0, 0);
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 700;
   margin: 5px;
+  font-family: Rajdhani, sans-serif;
+  letter-spacing: 2px;
 }
 
 .imgx {
