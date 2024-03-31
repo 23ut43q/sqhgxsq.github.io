@@ -1,0 +1,39 @@
+.bgi {
+  background-color: #ff5e5e;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.big {
+  width: 60%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.txt {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.imgx {
+  background-image: url(./PS.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 123px;
+  height: 119px;
+}
