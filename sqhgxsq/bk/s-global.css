@@ -13,6 +13,10 @@ body {
   align-content: center;
 }
 
+/* audio::-webkit-media-controls-enclosure {
+  display: none;
+} */
+
 body>div {
   display: flex;
   flex-direction: row;
