@@ -1,0 +1,894 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.pku.edu.cn/visit.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 07:30:19 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="apple-touch-icon" href="pku_logo_red.png" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="renderer" content="webkit">
+<meta name="author" content="http://www.fractal-technology.com/">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<meta name="keywords" content="北京大学" />
+<meta name="description" content="北京大学" />
+<title>北京大学</title>
+<link href="Public/static/themes/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link href="Public/static/themes/css/global.css" rel="stylesheet" type="text/css" />
+<link href="Public/static/themes/css/fix.css" rel="stylesheet" type="text/css" />
+<script src="Public/static/themes/js/jquery.js"></script>
+<script src="Public/static/themes/js/jquery.easing.js"></script>
+<script src="Public/static/themes/js/jquery.mousewheel.js"></script>
+<script src="Public/static/themes/js/global.js"></script>
+<script src="Public/static/themes/js/fun.js"></script>
+<script src="Public/static/themes/js/plus/old/winscreen.js"></script>
+<script src="Public/static/themes/js/plus/jquery.mChange.js"></script>
+<script src="Public/static/themes/js/plus/jquery.mScroll.js"></script>
+<script src="Public/static/themes/js/plus/vivus.js"></script>
+<script src="Public/static/themes/js/jquery.mCustomScrollbar.js"></script>
+<script src="Public/static/themes/js/iscroll.js"></script>
+</head>
+
+
+
+<body>
+        <style>
+        .empty-data{ width:100%; font-size:25px; padding-top:8%; padding-bottom:8%; text-align: center;}
+        </style>
+    <style>
+#myalert{ display:none; }
+.recruit .block1{ height: auto}
+.layer-1{background:url(Public/static/themes/image/con_mask.png);;position:fixed;left:0;right: 0;top:0;bottom: 0;width:100%;height:100%;z-index: 1000000;}
+.layer-1 .myalert{padding:30px;background:#fff;width:240px;position:absolute;margin-top:-100px;top:50%;left:50%;margin-left:-145px;text-align:center; z-index: 100000}
+.layer-1 .guan{background:url(Public/static/themes/image/clos.png) no-repeat center; display:block;width:23px;height:23px;position:absolute;top:10px;right:10px;}
+.layer-1 .text{padding-bottom:15px;font-size:16px;color:#474747;}
+.layer-1 .button{background:none;border:1px solid #bbbbbb;width:91px;height:29px;font:14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;color: #707070;}
+</style>
+<div id="myalert" class="layer-1">
+    <div class="myalert">
+        <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+        <div class="text">请输入关键字</div>
+        <a><button class="button" id="my_ok" style="cursor:pointer ;opacity: 1;transform: translateY(0px);">确定</button></a>
+    </div>
+</div>
+<script>
+function my_alert(text,callback) {
+    $('#myalert').show();
+    $('#myalert .myalert div').html(text);
+
+    $('#my_ok').click( function() {
+        $('#myalert').hide();
+
+        if (typeof(callback) == 'function') {
+            callback();
+            return false;
+        }
+    });
+}
+
+function myalert_hide(){
+    $('#myalert').hide();
+}
+</script>
+    <div class="header light">
+    <div class="d1">
+        <div class="block">
+            <div id="header_start" class="nav_l"><a  href="home/student.html" >学生</a><i>|</i><a  href="teachers.html" >教职工</a><i>|</i><a  href="http://www.pku.org.cn/" >校友</a><i>|</i><a  href="visit.html" >访客</a><i>|</i><a  href="https://hr.pku.edu.cn/rczp/jxky/index.htm" >招聘</a><i>|</i><a  href="http://www.pkuef.org/" >捐赠</a><i>|</i><script type="text/javascript">
+ 	$('#header_start i:last').remove();
+</script></div>            <div class="nav_r"><a  href="https://portal.pku.edu.cn/" >门户</a><a  href="https://its.pku.edu.cn/" >网络</a><a  href="https://mail.pku.edu.cn/" >邮箱</a><a  href="https://liveclass.org.cn/" >燕云直播</a><a  href="https://www.lib.pku.edu.cn/" >图书馆</a><a  href="https://www.bjmu.edu.cn/" >医学部</a><a  href="leader_email.html" >领导信箱</a></div>        </div>
+    </div>
+    <div class="d2">
+        <div class="block">
+            <div class="logo"><a href="index.html"><img  src="Uploads/Picture/2019/12/26/s5e04176fbbfa3.png" title="" alt=""></a></div>            <div id="nav" class="nav_main"><a href="about.html" >北大概况</a><a href="recruit.html" >招生</a><a href="department.html" >学部与院系</a><a href="education.html" >教育教学</a><a href="scientificResearch.html" >科学研究</a><a href="cooperation.html" >合作交流</a><a href="campus.html" >校园生活</a></div>            <div class="tools"><div class="a sc">
+    <a></a>
+    <!-- <div class="search">
+        <input type="text" class="kw" placeholder="Search...">
+        <input type="button" value="&#xe672;" class="ok">
+    </div> -->
+</div>
+<div class="a lang">
+    <a  href="http://english.pku.edu.cn/" target="_blank"><i>EN</i></a>
+</div>
+<div class="menu"><i></i><i></i><i></i></div></div>            <div class="nav_child"><div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s6362347630ee4.png" alt=""></div>
+				<div class="txt">北大是常为新的，<br />
+改进的运动的先锋，<br />
+要使中国向着好的，<br />
+往上的道路走。</div>
+			</div>
+			<div class="r">
+				                        <a href="about.html">北大简介</a>                        <a href="leaders.html">现任领导</a>                        <a href="old_secretary.html">历任领导</a>                        <a href="group.html">组织机构</a>                        <a href="historyFamous.html">历史名人</a><a href="https://xxgk.pku.edu.cn/" target="_blank">信息公开</a>
+					                        <a href="IdentificationSystem.html">标识系统</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s6362349f86bc7.png" alt=""></div>
+				<div class="txt">燕园画卷美不胜收，<br />
+恰似你将要留在这里的<br />
+青春年华。<br />
+北京大学欢迎你！</div>
+			</div>
+			<div class="r">
+				                        <a href="recruit.html#undergraduate">本科生</a>                        <a href="recruit.html#graduateStudent">研究生</a>                        <a href="recruit.html#overseasStudent">留学生</a>                        <a href="http://www.oce.pku.edu.cn/cms">继续教育</a>                        <a href="recruit.html#prize">学生奖助信息</a>                        <a href="recruit.html#summer">暑期学校</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s6362348db2897.png" alt=""></div>
+				<div class="txt">勤奋、严谨、<br />
+求实、创新。</div>
+			</div>
+			<div class="r">
+				                        <a href="department.html#item1">理学部</a>                        <a href="department.html#item2">信息与工程科学部</a>                        <a href="department.html#item3">人文学部</a>                        <a href="department.html#item4">社会科学学部</a>                        <a href="department.html#item5">经济与管理学部</a>                        <a href="department.html#item6">医学部</a>                        <a href="department.html#item7">跨学科类</a>                        <a href="department.html#item8">深圳研究生院</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s636234b232902.png" alt=""></div>
+				<div class="txt">思想自由、兼容并包。<br />
+<br />
+教育应指导社会，<br />
+而非追逐社会。</div>
+			</div>
+			<div class="r">
+				                        <a href="education.html#p1">师资队伍</a>                        <a href="education.html#bdgw_bb">管理部门</a>                        <a href="education.html#p2">课程设置</a>                        <a href="education.html#p3">海外学习</a><a href="https://dean.pku.edu.cn/service/web/courseSearch.php" target="_blank">课表查询</a>
+					<a href="http://www.chinesemooc.org/" target="_blank">华文慕课</a>
+					<a href="https://course.pku.edu.cn/" target="_blank">教学网</a>
+					                        <a href="education.html#p4">证书验证</a><a href="https://liveclass.org.cn/" target="_blank">燕云直播</a>
+								</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s63623501613af.jpg" alt=""></div>
+				<div class="txt">博学之，审问之，<br />
+慎思之，明辨之，<br />
+笃行之。</div>
+			</div>
+			<div class="r">
+				                        <a href="scientificResearch.html#p1">科研成果</a>                        <a href="scientificResearch.html#p2">研究机构</a>                        <a href="scientificResearch.html#p2">学术期刊</a>                        <a href="scientificResearch.html#p3">管理部门</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/22/s637cb8c134d80.jpg" alt=""></div>
+				<div class="txt">志于道，据于德，<br />
+依于仁，游于艺。</div>
+			</div>
+			<div class="r">
+				<a href="http://www.oir.pku.edu.cn/" target="_blank">国际交流</a>
+					<a href="https://gnhz.pku.edu.cn/" target="_blank">国内合作</a>
+					<a href="http://www.pkuef.org/" target="_blank">教育基金会</a>
+					<a href="https://hmt.pku.edu.cn/" target="_blank">港澳台交流</a>
+					<a href="http://www.bjf.pku.edu.cn/" target="_blank">北京论坛</a>
+					<a href="http://www.hanban.pku.edu.cn/kzxy1/rblmgkzxy.htm" target="_blank">孔子学院</a>
+								</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s63623518d0a89.png" alt=""></div>
+				<div class="txt">秋冬春夏，<br />
+伴随着四时的运行，<br />
+青春和燕园融为一体，<br />
+北大成为永恒。</div>
+			</div>
+			<div class="r">
+				                        <a href="campus.html#item4">菁菁校园</a>                        <a href="campus.html#item3">讲座演出</a>                        <a href="campus.html#item2">艺术生活</a>                        <a href="campus.html#item5">体育健康</a>                        <a href="campus.html#item6">社团活动</a>                        <a href="campus.html#science3">档案馆藏</a>                        <a href="campus.html#item1">管理服务</a>                        <a href="campus.html#p3a">校历</a>			</div>
+		</div>
+	</div>        </div>
+    </div>
+</div>
+<div class="nav_mobile">
+    <div class="logo"><a href="index.html"><img src="Public/static/themes/image/logo2.png" alt=""></a></div>
+    <div class="tools"><div class="a lang"><a  href="http://english.pku.edu.cn/" target="_blank"><i>EN</i></a></div>
+<div class="a sc"><a></a></div></div>    <span class="close">&#xe797;</span>
+    <div class="nav_main"><a href="about.html" >北大概况</a><a href="recruit.html" >招生</a><a href="department.html" >学部与院系</a><a href="education.html" >教育教学</a><a href="scientificResearch.html" >科学研究</a><a href="cooperation.html" >合作交流</a><a href="campus.html" >校园生活</a></div>    <div id="header_start_wap" class="nav_l"><div class="inner">
+    <a  href="home/student.html" >学生</a><i>|</i><a  href="teachers.html" >教职工</a><i>|</i><a  href="http://www.pku.org.cn/" >校友</a><i>|</i><a  href="visit.html" >访客</a><i>|</i><a  href="https://hr.pku.edu.cn/rczp/jxky/index.htm" >招聘</a><i>|</i><a  href="http://www.pkuef.org/" >捐赠</a><i>|</i></div>
+<script type="text/javascript">
+ 	$('#header_start_wap i:last').remove();
+</script></div>    <div class="nav_r"><div class="inner">
+    <a  href="https://portal.pku.edu.cn/" >门户</a><a  href="https://its.pku.edu.cn/" >网络</a><a  href="https://mail.pku.edu.cn/" >邮箱</a><a  href="https://liveclass.org.cn/" >燕云直播</a><a  href="https://www.lib.pku.edu.cn/" >图书馆</a><a  href="https://www.bjmu.edu.cn/" >医学部</a><a  href="leader_email.html" >领导信箱</a></div></div></div>
+<input type="hidden" id="catId" value="/visit">
+<script type="text/javascript">
+     function navgl() {
+        var category = $('#catId').val();
+        var now = category ? category : window.location.pathname;
+        // now2 = now + window.location.hash;
+        // console.log(now);
+        var href = ''; 
+        $('.nav_main a, .nav_l a, .nav_r a').each(function(index) {
+            var _this = $(this);
+            var _index = index;
+            href = _this.attr('href'); 
+            // console.log(href);
+            // 一级
+            try {
+               if (href.indexOf(now) > -1) {
+                    setTimeout(function(){
+                        _this.addClass('now');
+                    },500)
+                }
+            } catch (e) {
+
+            }
+        })
+    }
+    $(function(){
+        navgl();
+    })
+</script>
+        <link href="Public/static/themes/css/slick.css" rel="stylesheet" type="text/css" />
+<script src="Public/static/themes/js/slick.js"></script>
+<div class="body page">
+    <div class="banner_page1">
+        <div><img src="Uploads/Picture/2021/06/29/s60dacd29e0d7a.jpg" alt="" title="" /></div>        <div class="block">
+            <div class="text" style="top:70%">
+                <div class="fz40">观光访问</div>
+                <div class="p fz20" style="min-height:20px;"><a  href="#p1" >预约参观</a><a  href="#p2" >校园地图</a><a  href="#p3" >北大建筑</a><a  href="#p4" >生活便利</a><a  href="#p5" >校历</a></div>            </div>
+        </div>
+    </div>
+    <div class="visit1 pd120" id="p1">
+        <div class="block">
+            <div class="title">
+                <div class="fz40" style="min-height:20px;">预约参观</div>            </div>
+            <div class="list"><div class="item pd120item">
+        <a  href="procedures.html" >
+            <div class="ico"><img src="Uploads/Picture/2024/01/12/s65a13c389436c.png" title="" alt="" /></div>
+            <div class="h">假期研学导览</div>
+            <div class="p" style="color:#94070a;"></div>
+        </a>
+    </div><div class="item pd120item">
+        <a  href="procedure/bdxy.html" >
+            <div class="ico"><img src="Uploads/Picture/2019/11/28/s5ddf8cd40e836.png" title="" alt="" /></div>
+            <div class="h">团队预约参观</div>
+            <div class="p" style="color:#94070a;"></div>
+        </a>
+    </div><div class="item pd120item">
+        <a  href="https://tourist.pku.edu.cn/tourist/modules/tourist/indexW.html" target="_blank" >
+            <div class="ico"><img src="Uploads/Picture/2019/11/28/s5ddf8e12819b8.png" title="" alt="" /></div>
+            <div class="h">个人预约参观</div>
+            <div class="p" style="color:#94070a;"></div>
+        </a>
+    </div>
+<script type="text/javascript">
+	$('.pd120item').on('click',function(){
+		var _thishrl = $(this).find('a').attr('href');
+		window.open(_thishrl,"_self");
+	})
+</script></div>            <div class="content pdt110" id="p2">
+                <div class="l">
+                    <div class="fz40" style="min-height:20px;">燕园地图</div>                    <div class="line"></div>
+                    <div class="tabs"><a  >两小时游</a><a  >半日游</a><a  >一日游</a></div>                </div>
+                <div class="r">
+                    <div class="map">
+                        <div><img src="Uploads/Picture/2019/12/03/s5de564473baaa.png" alt="" title="" />
+<img src="Uploads/Picture/2019/12/03/s5de565527bb01.png" alt="" title="" class="b" />
+<img src="Uploads/Picture/2019/12/03/s5de565928250a.png" alt="" title="" class="c" />
+<img src="Uploads/Picture/2019/12/03/s5de564ad29291.png" alt="" title="" class="a" /></div>                                                <div class="inner">
+                            <div class="point" x="370" y="385">
+                                    <div class="cont">
+                                        <div class="h">畅春园</div>
+                                        <div class="p">文物位置：北京大学西门外，蔚秀园以南</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300847.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="916" y="645">
+                                    <div class="cont">
+                                        <div class="h">治贝子园</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="696" y="624">
+                                    <div class="cont">
+                                        <div class="h">三角地</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="638" y="608">
+                                    <div class="cont">
+                                        <div class="h">燕南园</div>
+                                        <div class="p">文物位置：燕园南部，即北京大学南部</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="724" y="576">
+                                    <div class="cont">
+                                        <div class="h">百年讲堂</div>
+                                        <div class="p">文物位置：校园中心</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="607" y="459">
+                                    <div class="cont">
+                                        <div class="h">北京大学革命烈士纪念碑</div>
+                                        <div class="p">文物时间：1993年5月4日<br />
+文物位置：静园草坪正北方</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293911.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="694" y="446">
+                                    <div class="cont">
+                                        <div class="h">图书馆</div>
+                                        <div class="p">文物时间：老馆建于1975年，2005年改造扩充<br />
+文物位置：东门轴线尽端</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="607" y="433">
+                                    <div class="cont">
+                                        <div class="h">杭爱碑</div>
+                                        <div class="p">文物时间：清康熙<br />
+文物位置：静园草坪北侧的东西两角，一院和六院前</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293917.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="765" y="395">
+                                    <div class="cont">
+                                        <div class="h">生物标本馆</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="607" y="400">
+                                    <div class="cont">
+                                        <div class="h">李大钊像</div>
+                                        <div class="p">文物时间：1982年10月5日<br />
+文物位置：俄文楼前</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293940.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="797" y="338">
+                                    <div class="cont">
+                                        <div class="h">博雅塔</div>
+                                        <div class="p">文物时间：1924~1925<br />
+文物位置：未名湖东南</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293903.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="712" y="321">
+                                    <div class="cont">
+                                        <div class="h">斯诺墓</div>
+                                        <div class="p">文物时间：1973年10月19日<br />
+文物位置：未名湖南岸</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293926.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="611" y="360">
+                                    <div class="cont">
+                                        <div class="h">梅石碑</div>
+                                        <div class="p">文物时间：清乾隆<br />
+文物位置：临湖轩西南，俄文楼西北方土丘下</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293944.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="691" y="282">
+                                    <div class="cont">
+                                        <div class="h">石舫遗迹</div>
+                                        <div class="p">文物位置：未名湖北岸，健斋以东，土山之阳</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="666" y="290">
+                                    <div class="cont">
+                                        <div class="h">岛亭</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="700" y="263">
+                                    <div class="cont">
+                                        <div class="h">未名湖</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="675" y="269">
+                                    <div class="cont">
+                                        <div class="h">鲁斯亭</div>
+                                        <div class="p">文物位置：未名湖中心的湖心岛上</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="607" y="319">
+                                    <div class="cont">
+                                        <div class="h">蔡元培像</div>
+                                        <div class="p">文物时间：1982年10月5日<br />
+文物位置：钟亭前的三角地草坪</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293904.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="640" y="304">
+                                    <div class="cont">
+                                        <div class="h">翻尾石鱼</div>
+                                        <div class="p">文物时间：乾隆十六年（1751）<br />
+文物位置：未名湖西</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293953.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="620" y="289">
+                                    <div class="cont">
+                                        <div class="h">未名湖</div>
+                                        <div class="p">文物时间：20世纪20年代<br />
+文物位置：校园中北部</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="601" y="286">
+                                    <div class="cont">
+                                        <div class="h">鹊桥</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="586" y="301">
+                                    <div class="cont">
+                                        <div class="h">钟亭</div>
+                                        <div class="p">文物位置：未名湖西南角的山峦上</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="514" y="403">
+                                    <div class="cont">
+                                        <div class="h">勺海</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="468" y="408">
+                                    <div class="cont">
+                                        <div class="h">勺海</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="513" y="383">
+                                    <div class="cont">
+                                        <div class="h">校史馆</div>
+                                        <div class="p"></div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div><div class="point" x="485" y="351">
+                                    <div class="cont">
+                                        <div class="h">西南联合大学纪念碑</div>
+                                        <div class="p">文物时间：1946年5月<br />
+文物位置：北大西校门内南侧</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293916.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="495" y="327">
+                                    <div class="cont">
+                                        <div class="h">葛利普墓</div>
+                                        <div class="p">文物时间：1946年3月26日建于北大红楼（沙滩）旁的地质馆前,1982年由中国地质学会倡议移墓于此。<br />
+文物位置：校友桥南</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293909.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="435" y="303">
+                                    <div class="cont">
+                                        <div class="h">校友桥</div>
+                                        <div class="p">文物位置：北京大学西门入口向东10米</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293922.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="435" y="282">
+                                    <div class="cont">
+                                        <div class="h">西门</div>
+                                        <div class="p">文物时间：1926年<br />
+文物位置：北大西校门内南侧</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293933.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="478" y="268">
+                                    <div class="cont">
+                                        <div class="h">档案馆</div>
+                                        <div class="p">文物时间：1925年建立，1999年正式设为档案馆<br />
+文物位置：北京大学西门办公楼南边</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293913.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="460" y="241">
+                                    <div class="cont">
+                                        <div class="h">华表</div>
+                                        <div class="p">文物时间：至迟当建于乾隆七年（1742）<br />
+文物位置：办公楼以西</div>
+                                        <a  href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293907.htm" target="_blank" ></a>
+                                    </div>
+                                </div><div class="point" x="491" y="230">
+                                    <div class="cont">
+                                        <div class="h">鸣鹤园</div>
+                                        <div class="p">文物位置：校园西北部</div>
+                                        <a  style="cursor:default;"></a>
+                                    </div>
+                                </div>                        </div>
+                    </div>
+                    <div class="tip"><img src="Uploads/Picture/2019/12/31/s5e0ab0d42465d.png" alt="" title="" /></div>                    <div class="zoom"><span class="a"></span><span class="b"></span></div>
+                </div>
+            </div>
+            <div class="text">
+                <div class="h" style="min-height:20px;">景观简介</div>                <div class="p" style="min-height:20px;">北京大学校本部坐落在燕园，包括淑春园、勺园、朗润园、镜春园、鸣鹤园、蔚秀园、畅春园、承泽园等， 每逢节日，博雅塔会亮起绚烂的灯光，在明清两代是著名的皇家园林，数百年来，其基本格局与神韵依然存在。校园北与圆明园毗邻、西与颐和园相望。北京大学充分利用了这一难得的历史遗产，营建了风景如画的校园环境，使之既有皇家园林的宏伟气度，又有江南山水的秀丽特色。这里不仅有亭台楼阁等古典建筑，而且山环水抱，湖泊相连，堤岛穿插，风景宜人。校园内古木参天，绿树成荫，四季常青，鸟语花香，园林景色步移景异。优美典雅的环境内充满着丰富多彩、魅力无穷的校园生活，使学生可以同时感受到自然的风景和浓厚的人文气息。未名湖与博雅塔是北京大学的标志性景观，美丽的湖光塔影伴随着大师的背影，构成燕园中最美的图画。著名的“一塔湖图”指的就是未名湖湖畔的景色。<br></div>            </div>
+        </div>
+    </div>
+    <div class="visit2 pd110" id="p3">
+        <div class="block">
+            <div class="title">
+                <div class="fz40" style="min-height:20px;">北大建筑一览</div>            </div>
+                        <div class="frame">
+                <div class="child">
+                        <div class="list">
+                            <a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293933.htm"  target="_blank">
+                                    <span>西校门</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293922.htm"  target="_blank">
+                                    <span>校友桥</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293903.htm"  target="_blank">
+                                    <span>博雅塔</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293904.htm"  target="_blank">
+                                    <span>蔡元培铜像</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293902.htm"  target="_blank">
+                                    <span>办公楼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300866.htm"  target="_blank">
+                                    <span>柱础</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300865.htm"  target="_blank">
+                                    <span>治贝子园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300864.htm"  target="_blank">
+                                    <span>植树碑 </span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300863.htm"  target="_blank">
+                                    <span>鱼洗</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300862.htm"  target="_blank">
+                                    <span>燕南园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300861.htm"  target="_blank">
+                                    <span>香炉</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300860.htm"  target="_blank">
+                                    <span>蔚秀园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300859.htm"  target="_blank">
+                                    <span>守仁国际中心建筑群 </span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300858.htm"  target="_blank">
+                                    <span>石盆</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300857.htm"  target="_blank">
+                                    <span>勺园太湖石</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300856.htm"  target="_blank">
+                                    <span>旗杆座（1952）</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300855.htm"  target="_blank">
+                                    <span>旗杆座（1934）</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300854.htm"  target="_blank">
+                                    <span>旗杆座（1924）</span>
+                                </a>                        </div>
+                    </div><div class="child">
+                        <div class="list">
+                            <a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300853.htm"  target="_blank">
+                                    <span>鸣鹤园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300852.htm"  target="_blank">
+                                    <span>鲁斯亭</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300851.htm"  target="_blank">
+                                    <span>六圣祠碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300850.htm"  target="_blank">
+                                    <span>海晏堂引水槽</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300849.htm"  target="_blank">
+                                    <span>承泽园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300848.htm"  target="_blank">
+                                    <span>畅春园东北界碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300847.htm"  target="_blank">
+                                    <span>畅春园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300846.htm"  target="_blank">
+                                    <span>“紫琳浸月”石碑 </span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300845.htm"  target="_blank">
+                                    <span>“重修观音庵”碑 </span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300844.htm"  target="_blank">
+                                    <span>“云根”石</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300837.htm"  target="_blank">
+                                    <span>“柳浪闻莺”石牌坊构件</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1300836.htm"  target="_blank">
+                                    <span>“断桥残雪”石牌坊构件</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293906.htm"  target="_blank">
+                                    <span>慈济寺山门</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293905.htm"  target="_blank">
+                                    <span>丹墀</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293913.htm"  target="_blank">
+                                    <span>档案馆</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293915.htm"  target="_blank">
+                                    <span>德才均备斋 </span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293950.htm"  target="_blank">
+                                    <span>第二体育馆</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293910.htm"  target="_blank">
+                                    <span>第一体育馆</span>
+                                </a>                        </div>
+                    </div><div class="child">
+                        <div class="list">
+                            <a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293951.htm"  target="_blank">
+                                    <span>俄文楼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293953.htm"  target="_blank">
+                                    <span>翻尾石鱼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293949.htm"  target="_blank">
+                                    <span>方池</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293911.htm"  target="_blank">
+                                    <span>革命烈士纪念碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293909.htm"  target="_blank">
+                                    <span>葛利普墓</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293916.htm"  target="_blank">
+                                    <span>国立西南联合大学纪念碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293917.htm"  target="_blank">
+                                    <span>杭爱碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293952.htm"  target="_blank">
+                                    <span>花神庙碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293907.htm"  target="_blank">
+                                    <span>华表</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293914.htm"  target="_blank">
+                                    <span>化学北楼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293918.htm"  target="_blank">
+                                    <span>化学南楼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293908.htm"  target="_blank">
+                                    <span>静园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293912.htm"  target="_blank">
+                                    <span>镜春园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293947.htm"  target="_blank">
+                                    <span>赖朴吾、夏仁德墓</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293948.htm"  target="_blank">
+                                    <span>朗润园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293940.htm"  target="_blank">
+                                    <span>李大钊像</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293945.htm"  target="_blank">
+                                    <span>临湖轩</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293944.htm"  target="_blank">
+                                    <span>梅石碑</span>
+                                </a>                        </div>
+                    </div><div class="child">
+                        <div class="list">
+                            <a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293941.htm"  target="_blank">
+                                    <span>米玉墓志铭</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293942.htm"  target="_blank">
+                                    <span>民主楼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293946.htm"  target="_blank">
+                                    <span>南北阁</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293938.htm"  target="_blank">
+                                    <span>乾隆半月诗碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293939.htm"  target="_blank">
+                                    <span>乾隆御制诗碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293943.htm"  target="_blank">
+                                    <span>日晷</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293937.htm"  target="_blank">
+                                    <span>三一八遇难烈士纪念碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293925.htm"  target="_blank">
+                                    <span>生物东馆</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293936.htm"  target="_blank">
+                                    <span>塞万提斯像</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293932.htm"  target="_blank">
+                                    <span>石雕五供及石供桌</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293928.htm"  target="_blank">
+                                    <span>石舫</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293919.htm"  target="_blank">
+                                    <span>石屏风</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293931.htm"  target="_blank">
+                                    <span>石麒麟</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293935.htm"  target="_blank">
+                                    <span>石桥</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293923.htm"  target="_blank">
+                                    <span>石狮</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293924.htm"  target="_blank">
+                                    <span>魏士毅墓</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293926.htm"  target="_blank">
+                                    <span>斯诺墓</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293921.htm"  target="_blank">
+                                    <span>体斋 健斋 全斋</span>
+                                </a>                        </div>
+                    </div><div class="child">
+                        <div class="list">
+                            <a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293920.htm"  target="_blank">
+                                    <span>外文楼</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293929.htm"  target="_blank">
+                                    <span>校景亭</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293930.htm"  target="_blank">
+                                    <span>燕东园</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293934.htm"  target="_blank">
+                                    <span>振兴中华碑</span>
+                                </a><a href="https://fdcb.pku.edu.cn/fwck/wwbh/wwxx_wwbh/1293927.htm"  target="_blank">
+                                    <span>钟亭</span>
+                                </a>                        </div>
+                    </div>            </div>
+            <div class="navg">
+                    <span class="prev"></span>
+                    <span class="next"></span>
+                </div>        </div>
+    </div>
+    <div class="visit3 pd120" id="p4" >
+        <div class="block">
+            <div class="d"><img src="Uploads/Picture/2019/12/13/s5df350a9747ea.jpg" alt="" title="" />
+<!-- <script>
+$(function() {
+    $("#p4").css( "background-image", "url(/Uploads/Picture/2019/12/03/s5de567d08dff4.png)" );
+})
+</script> --></div>            <div class="d">
+                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/12/03/s5de56947688c9.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/12/03/s5de56951a5c53.png" alt="" class="b">
+</div>
+<div class="h">娱乐</div>
+<a  href="detail/1073.html"></a></div>                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa53b2e47d.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa54697c1f.png" alt="" class="b">
+</div>
+<div class="h">住宿</div>
+<a  href="detail/1061.html"></a></div>                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa5a0e99ac.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa5ab8b266.png" alt="" class="b">
+</div>
+<div class="h">购物</div>
+<a  href="detail/1065.html"></a></div>                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa5f85cce3.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa60389a52.png" alt="" class="b">
+</div>
+<div class="h">餐饮</div>
+<a  href="detail/1066.html"></a></div>            </div>
+            <div class="d">
+                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa6d22aa15.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa6de202c6.png" alt="" class="b">
+</div>
+<div class="h">邮局银行</div>
+<a  href="detail/1067.html"></a></div>                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa7035abd8.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa7102fb37.png" alt="" class="b">
+</div>
+<div class="h">校医院</div>
+<a  href="https://hospital.pku.edu.cn/"></a></div>                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa738bfa7e.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa742e8dc1.png" alt="" class="b">
+</div>
+<div class="h">网络服务</div>
+<a  href="https://its.pku.edu.cn/service_1_visitor.jsp"></a></div>                <div class="item"><div class="ico">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa76a937d3.png" alt="" class="a">
+    <img src="Uploads/Picture/2019/11/28/s5ddfa7744a9f1.png" alt="" class="b">
+</div>
+<div class="h">常用电话</div>
+<a  href="detail/1068.html"></a></div>            </div>
+            <div class="d"><img src="Public/static/themes/image/pic102.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="visit4 pdb110" id="p5">
+        <div class="title">
+            <div class="fz40" style="min-height:52px;">校历</div>        </div>
+                <div class="block">
+            <div class="frame">
+                <div class="child">
+                        <div class="list">
+                                                            <div class="item">
+                                    <a href="detail/2836.html"  >
+                                        <div class="h">北京大学</div>                                        <div class="d">2023-2024</div>                                        <div class="p">学年校历</div>                                    </a>
+                                </div>                                <div class="item">
+                                    <a href="detail/3001.html"  >
+                                        <div class="h">北京大学</div>                                        <div class="d">2024-2025</div>                                        <div class="p">学年校历</div>                                    </a>
+                                </div>                        </div>
+                    </div>            </div>
+                    </div>
+    </div>
+</div>
+<style>
+    .visit1 .r .map .point .cont{cursor: default;}
+</style>
+<script>
+$(function(){
+    //setTimeout(function(){
+        $('#header_start a').removeClass('now');
+    //},1)
+});
+    var zoom1 = 1;
+    var zoom2 = 1;
+
+    $( function() {
+        autopoint();
+        // $(".visit1 .tabs a").eq(0).click();
+    });
+
+    $(".visit2 .frame").slick({
+        // variableWidth : true,
+        autoplay        : false,
+        speed           : 600,
+        infinite        : true,
+        slidesToShow    : 1,
+        arrows          : true,
+        nextArrow       : ".visit2 .next",
+        prevArrow       : ".visit2 .prev",
+        draggable       : false,
+        fade            : false
+    });
+
+    $(".visit4 .frame").slick({
+        // variableWidth : true,
+        autoplay        : false,
+        speed           : 600,
+        infinite        : true,
+        slidesToShow    : 1,
+        arrows          : true,
+        nextArrow       : ".visit4 .next",
+        prevArrow       : ".visit4 .prev",
+        draggable       : false,
+        fade            : false
+    });
+
+
+    $(window).scroll( function() {
+        scrollact( ".study1", 3, function(){}, function(){} );
+    });
+
+    $(".visit1 .tabs a").eq(0).click( function() {
+        $(".visit1 .tabs a").removeClass("now");
+        $(this).addClass("now");
+        $(".map .a").show();
+        $(".map .b,.map .c").hide();
+    });
+
+    $(".visit1 .tabs a").eq(1).click( function() {
+        $(".visit1 .tabs a").removeClass("now");
+        $(this).addClass("now");
+        $(".map .c").show();
+        $(".map .a,.map .b").hide();
+    });
+
+    $(".visit1 .tabs a").eq(2).click( function() {
+        $(".visit1 .tabs a").removeClass("now");
+        $(this).addClass("now");
+        $(".map .b,.map .c").show();
+        $(".map .a").hide();
+    });
+
+    $(window).resize( function() {
+        autopoint();
+    });
+
+    function autopoint() {
+        $(".map .point").each( function( index, element ) {
+            var x = parseInt( $(this).attr("x") ) * $(".map").width() / 1275;
+            var y = parseInt( $(this).attr("y") ) * $(".map").width() / 1275;
+            $(this).css({ left : x, top : y });
+            x = null;
+            y = null;
+        });
+    }
+  
+    
+</script>
+    <div class="footer">
+    <div class="part1">
+        <div class="nav_foot"><div class="inner">
+	<a  href="http://pkunews.pku.edu.cn/" >新闻</a><a  href="recruit.html" >招生</a><a  href="https://hr.pku.edu.cn/rczp/jxky/index.htm" >招聘</a><a  href="http://www.pkuef.org/" >捐赠</a><a  href="visit.html" >校园地图</a><a  href="visit.html#p5" >校历</a><a  href="close-up_pku2021.html" >燕园特写</a><a  href="https://bbs.pku.edu.cn/" >未名BBS</a></div></div>        <div class="share"><div class="share-box bdsharebuttonbox"> 
+    <a class="share-item icon-wchat" title="分享到微信">
+        <span class="code"><img src="Uploads/Picture/2019/12/27/s5e05ab4267239.jpg" alt="" title=""></span></span>
+    </a> 
+    <a class="share-item icon-sinawb" data-cmd="tsina" title="分享到新浪微博">
+        <span class="code"><img src="Uploads/Picture/2019/12/31/s5e0aa9359ae68.png" alt="" title=""></span>
+    </a>
+    <!-- <a class="share-item icon-txwb" data-cmd="tqq" title="分享到腾讯微博">
+        <span class="code"><img src="/Uploads/Picture/2019/12/31/s5e0aa9359ae68.png" alt="" title=""></span>
+    </a>  -->
+</div></div>    </div>
+    <div class="part2">
+        <div class="logo"><a  href="index-2.html" >
+    <img  src="Uploads/Picture/2019/12/05/s5de8762313bab.png" title="" alt="" />
+</a></div>        <div id="footinfo" class="info"><span><a  style="cursor:default ;">版权所有©北京大学</a></span>
+    |<span><a  style="cursor:default ;">地址：北京市海淀区颐和园路5号</a></span>
+    |<span><a  style="cursor:default ;">邮编：100871</a></span>
+    |<span><a  style="cursor:default ;">反馈意见：its@pku.edu.cn</a></span>
+    |<span><a  href="https://beian.miit.gov.cn/" target="_blank" >京ICP备05065075号-1</a></span>
+    |<span><a  href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=110402430047" target="_blank" >京公网安备 110402430047 号</a></span>
+    <span></span>
+<!-- <script type="text/javascript">
+	$('#footinfo b:last').remove();
+</script>
+ --></div>    </div>
+</div>
+<div class="layer" id="search"><span class="close" onClick="hidelayer('#search')">&#xe798;</span>
+    <div class="search_box">
+         <input id="searchKeyword" type="text" placeholder="Search..." class="kw" onkeydown="searchkeydown(event, '#searchOk')">
+        <input type="button" placeholder="" id="searchOk" onclick="bingsearch();return false;" class="ok" value="搜索">
+    </div>
+</div>
+<script>
+function bingsearch(){
+    if($("input#searchKeyword").val()==""){
+        my_alert('请输入关键字');
+        return false;
+    }
+    var key = $("input#searchKeyword").val()+"+site:pku.edu.cn";
+    var url = 'https://cn.bing.com/search?ensearch=1&q=' + encodeURI(key);
+    window.open(url);
+    hidelayer('#search')
+    $("input#searchKeyword").val("");
+}
+function searchkeydown(e, but) {
+     var currKey=0,e=e||event;
+     var _this = $(but);
+     if(e.keyCode==13)
+     {
+         _this.click();
+         return false;
+     }
+}
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hmed9a.js?c7896bb34c3be32ea17322b5412545c0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+
+<!-- Mirrored from www.pku.edu.cn/visit.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 07:30:26 GMT -->
+</html>
+

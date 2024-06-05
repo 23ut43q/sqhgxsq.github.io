@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.pku.edu.cn/shiYuan.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 07:31:53 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="apple-touch-icon" href="pku_logo_red.png" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="renderer" content="webkit">
+<meta name="author" content="http://www.fractal-technology.com/">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<meta name="keywords" content="北京大学" />
+<meta name="description" content="北京大学" />
+<title>北京大学</title>
+<link href="Public/static/themes/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link href="Public/static/themes/css/global.css" rel="stylesheet" type="text/css" />
+<link href="Public/static/themes/css/fix.css" rel="stylesheet" type="text/css" />
+<script src="Public/static/themes/js/jquery.js"></script>
+<script src="Public/static/themes/js/jquery.easing.js"></script>
+<script src="Public/static/themes/js/jquery.mousewheel.js"></script>
+<script src="Public/static/themes/js/global.js"></script>
+<script src="Public/static/themes/js/fun.js"></script>
+<script src="Public/static/themes/js/plus/old/winscreen.js"></script>
+<script src="Public/static/themes/js/plus/jquery.mChange.js"></script>
+<script src="Public/static/themes/js/plus/jquery.mScroll.js"></script>
+<script src="Public/static/themes/js/plus/vivus.js"></script>
+<script src="Public/static/themes/js/jquery.mCustomScrollbar.js"></script>
+<script src="Public/static/themes/js/iscroll.js"></script>
+</head>
+
+
+
+<body>
+        <style>
+        .empty-data{ width:100%; font-size:25px; padding-top:8%; padding-bottom:8%; text-align: center;}
+        </style>
+    <style>
+#myalert{ display:none; }
+.recruit .block1{ height: auto}
+.layer-1{background:url(Public/static/themes/image/con_mask.png);;position:fixed;left:0;right: 0;top:0;bottom: 0;width:100%;height:100%;z-index: 1000000;}
+.layer-1 .myalert{padding:30px;background:#fff;width:240px;position:absolute;margin-top:-100px;top:50%;left:50%;margin-left:-145px;text-align:center; z-index: 100000}
+.layer-1 .guan{background:url(Public/static/themes/image/clos.png) no-repeat center; display:block;width:23px;height:23px;position:absolute;top:10px;right:10px;}
+.layer-1 .text{padding-bottom:15px;font-size:16px;color:#474747;}
+.layer-1 .button{background:none;border:1px solid #bbbbbb;width:91px;height:29px;font:14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;color: #707070;}
+</style>
+<div id="myalert" class="layer-1">
+    <div class="myalert">
+        <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+        <div class="text">请输入关键字</div>
+        <a><button class="button" id="my_ok" style="cursor:pointer ;opacity: 1;transform: translateY(0px);">确定</button></a>
+    </div>
+</div>
+<script>
+function my_alert(text,callback) {
+    $('#myalert').show();
+    $('#myalert .myalert div').html(text);
+
+    $('#my_ok').click( function() {
+        $('#myalert').hide();
+
+        if (typeof(callback) == 'function') {
+            callback();
+            return false;
+        }
+    });
+}
+
+function myalert_hide(){
+    $('#myalert').hide();
+}
+</script>
+    <div class="header light">
+    <div class="d1">
+        <div class="block">
+            <div id="header_start" class="nav_l"><a  href="home/student.html" >学生</a><i>|</i><a  href="teachers.html" >教职工</a><i>|</i><a  href="http://www.pku.org.cn/" >校友</a><i>|</i><a  href="visit.html" >访客</a><i>|</i><a  href="https://hr.pku.edu.cn/rczp/jxky/index.htm" >招聘</a><i>|</i><a  href="http://www.pkuef.org/" >捐赠</a><i>|</i><script type="text/javascript">
+ 	$('#header_start i:last').remove();
+</script></div>            <div class="nav_r"><a  href="https://portal.pku.edu.cn/" >门户</a><a  href="https://its.pku.edu.cn/" >网络</a><a  href="https://mail.pku.edu.cn/" >邮箱</a><a  href="https://liveclass.org.cn/" >燕云直播</a><a  href="https://www.lib.pku.edu.cn/" >图书馆</a><a  href="https://www.bjmu.edu.cn/" >医学部</a><a  href="leader_email.html" >领导信箱</a></div>        </div>
+    </div>
+    <div class="d2">
+        <div class="block">
+            <div class="logo"><a href="index.html"><img  src="Uploads/Picture/2019/12/26/s5e04176fbbfa3.png" title="" alt=""></a></div>            <div id="nav" class="nav_main"><a href="about.html" >北大概况</a><a href="recruit.html" >招生</a><a href="department.html" >学部与院系</a><a href="education.html" >教育教学</a><a href="scientificResearch.html" >科学研究</a><a href="cooperation.html" >合作交流</a><a href="campus.html" >校园生活</a></div>            <div class="tools"><div class="a sc">
+    <a></a>
+    <!-- <div class="search">
+        <input type="text" class="kw" placeholder="Search...">
+        <input type="button" value="&#xe672;" class="ok">
+    </div> -->
+</div>
+<div class="a lang">
+    <a  href="http://english.pku.edu.cn/" target="_blank"><i>EN</i></a>
+</div>
+<div class="menu"><i></i><i></i><i></i></div></div>            <div class="nav_child"><div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s6362347630ee4.png" alt=""></div>
+				<div class="txt">北大是常为新的，<br />
+改进的运动的先锋，<br />
+要使中国向着好的，<br />
+往上的道路走。</div>
+			</div>
+			<div class="r">
+				                        <a href="about.html">北大简介</a>                        <a href="leaders.html">现任领导</a>                        <a href="old_secretary.html">历任领导</a>                        <a href="group.html">组织机构</a>                        <a href="historyFamous.html">历史名人</a><a href="https://xxgk.pku.edu.cn/" target="_blank">信息公开</a>
+					                        <a href="IdentificationSystem.html">标识系统</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s6362349f86bc7.png" alt=""></div>
+				<div class="txt">燕园画卷美不胜收，<br />
+恰似你将要留在这里的<br />
+青春年华。<br />
+北京大学欢迎你！</div>
+			</div>
+			<div class="r">
+				                        <a href="recruit.html#undergraduate">本科生</a>                        <a href="recruit.html#graduateStudent">研究生</a>                        <a href="recruit.html#overseasStudent">留学生</a>                        <a href="http://www.oce.pku.edu.cn/cms">继续教育</a>                        <a href="recruit.html#prize">学生奖助信息</a>                        <a href="recruit.html#summer">暑期学校</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s6362348db2897.png" alt=""></div>
+				<div class="txt">勤奋、严谨、<br />
+求实、创新。</div>
+			</div>
+			<div class="r">
+				                        <a href="department.html#item1">理学部</a>                        <a href="department.html#item2">信息与工程科学部</a>                        <a href="department.html#item3">人文学部</a>                        <a href="department.html#item4">社会科学学部</a>                        <a href="department.html#item5">经济与管理学部</a>                        <a href="department.html#item6">医学部</a>                        <a href="department.html#item7">跨学科类</a>                        <a href="department.html#item8">深圳研究生院</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s636234b232902.png" alt=""></div>
+				<div class="txt">思想自由、兼容并包。<br />
+<br />
+教育应指导社会，<br />
+而非追逐社会。</div>
+			</div>
+			<div class="r">
+				                        <a href="education.html#p1">师资队伍</a>                        <a href="education.html#bdgw_bb">管理部门</a>                        <a href="education.html#p2">课程设置</a>                        <a href="education.html#p3">海外学习</a><a href="https://dean.pku.edu.cn/service/web/courseSearch.php" target="_blank">课表查询</a>
+					<a href="http://www.chinesemooc.org/" target="_blank">华文慕课</a>
+					<a href="https://course.pku.edu.cn/" target="_blank">教学网</a>
+					                        <a href="education.html#p4">证书验证</a><a href="https://liveclass.org.cn/" target="_blank">燕云直播</a>
+								</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s63623501613af.jpg" alt=""></div>
+				<div class="txt">博学之，审问之，<br />
+慎思之，明辨之，<br />
+笃行之。</div>
+			</div>
+			<div class="r">
+				                        <a href="scientificResearch.html#p1">科研成果</a>                        <a href="scientificResearch.html#p2">研究机构</a>                        <a href="scientificResearch.html#p2">学术期刊</a>                        <a href="scientificResearch.html#p3">管理部门</a>			</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/22/s637cb8c134d80.jpg" alt=""></div>
+				<div class="txt">志于道，据于德，<br />
+依于仁，游于艺。</div>
+			</div>
+			<div class="r">
+				<a href="http://www.oir.pku.edu.cn/" target="_blank">国际交流</a>
+					<a href="https://gnhz.pku.edu.cn/" target="_blank">国内合作</a>
+					<a href="http://www.pkuef.org/" target="_blank">教育基金会</a>
+					<a href="https://hmt.pku.edu.cn/" target="_blank">港澳台交流</a>
+					<a href="http://www.bjf.pku.edu.cn/" target="_blank">北京论坛</a>
+					<a href="http://www.hanban.pku.edu.cn/kzxy1/rblmgkzxy.htm" target="_blank">孔子学院</a>
+								</div>
+		</div>
+	<div class="item">
+			<div class="l">
+				<div class="pic"><img src="Uploads/Picture/2022/11/02/s63623518d0a89.png" alt=""></div>
+				<div class="txt">秋冬春夏，<br />
+伴随着四时的运行，<br />
+青春和燕园融为一体，<br />
+北大成为永恒。</div>
+			</div>
+			<div class="r">
+				                        <a href="campus.html#item4">菁菁校园</a>                        <a href="campus.html#item3">讲座演出</a>                        <a href="campus.html#item2">艺术生活</a>                        <a href="campus.html#item5">体育健康</a>                        <a href="campus.html#item6">社团活动</a>                        <a href="campus.html#science3">档案馆藏</a>                        <a href="campus.html#item1">管理服务</a>                        <a href="campus.html#p3a">校历</a>			</div>
+		</div>
+	</div>        </div>
+    </div>
+</div>
+<div class="nav_mobile">
+    <div class="logo"><a href="index.html"><img src="Public/static/themes/image/logo2.png" alt=""></a></div>
+    <div class="tools"><div class="a lang"><a  href="http://english.pku.edu.cn/" target="_blank"><i>EN</i></a></div>
+<div class="a sc"><a></a></div></div>    <span class="close">&#xe797;</span>
+    <div class="nav_main"><a href="about.html" >北大概况</a><a href="recruit.html" >招生</a><a href="department.html" >学部与院系</a><a href="education.html" >教育教学</a><a href="scientificResearch.html" >科学研究</a><a href="cooperation.html" >合作交流</a><a href="campus.html" >校园生活</a></div>    <div id="header_start_wap" class="nav_l"><div class="inner">
+    <a  href="home/student.html" >学生</a><i>|</i><a  href="teachers.html" >教职工</a><i>|</i><a  href="http://www.pku.org.cn/" >校友</a><i>|</i><a  href="visit.html" >访客</a><i>|</i><a  href="https://hr.pku.edu.cn/rczp/jxky/index.htm" >招聘</a><i>|</i><a  href="http://www.pkuef.org/" >捐赠</a><i>|</i></div>
+<script type="text/javascript">
+ 	$('#header_start_wap i:last').remove();
+</script></div>    <div class="nav_r"><div class="inner">
+    <a  href="https://portal.pku.edu.cn/" >门户</a><a  href="https://its.pku.edu.cn/" >网络</a><a  href="https://mail.pku.edu.cn/" >邮箱</a><a  href="https://liveclass.org.cn/" >燕云直播</a><a  href="https://www.lib.pku.edu.cn/" >图书馆</a><a  href="https://www.bjmu.edu.cn/" >医学部</a><a  href="leader_email.html" >领导信箱</a></div></div></div>
+<input type="hidden" id="catId" value="/shiYuan">
+<script type="text/javascript">
+     function navgl() {
+        var category = $('#catId').val();
+        var now = category ? category : window.location.pathname;
+        // now2 = now + window.location.hash;
+        // console.log(now);
+        var href = ''; 
+        $('.nav_main a, .nav_l a, .nav_r a').each(function(index) {
+            var _this = $(this);
+            var _index = index;
+            href = _this.attr('href'); 
+            // console.log(href);
+            // 一级
+            try {
+               if (href.indexOf(now) > -1) {
+                    setTimeout(function(){
+                        _this.addClass('now');
+                    },500)
+                }
+            } catch (e) {
+
+            }
+        })
+    }
+    $(function(){
+        navgl();
+    })
+</script>
+        <div class="body page">
+	<div class="history pd110">
+		<div class="block">
+			<div class="title">
+				<div class="fz40">北大史苑</div>
+				<div class="fz20">讲述关于北大的历史故事与精神传承</div>			</div>
+			<div class="list">
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df48b9e2a02b.png" alt="" title="">
+<div class="year">
+	<div class="h">1898-1916</div>
+	<span></span>
+		<a  href="detail/902.html"></a></div></div>					<div class="text">
+						<div class="h">京师大学堂与民国初年的北京大学</div>						<div class="d">北京大学创建于1898年，初名京师大学堂，是中国近代史上第一所国立综合性大学。</div>						<div class="p">京师大学堂在维新变法运动中诞生。1894年中日甲午战争中国战败，清政府被迫签订丧权辱国的《马关条约》，举国震动。面对列强瓜分中国的严重危机，康有为、梁启超、严复等先进知识分子大声疾呼变法自强，挽救危亡，掀起了维新变法运动。“变法之本，在育人才；人才之兴，在开学校。”改革旧教育，建立新学堂成为变法的第一要务。1896年6月，刑部侍郎李端棻奏《请推广学校折》，提出在京师设立大学堂。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47c904eee4.png" alt="" title="">
+<div class="year">
+	<div class="h">1916-1927</div>
+	<span></span>
+		<a  href="detail/905.html"></a></div></div>					<div class="text">
+						<div class="h">五四前后的北京大学</div>						<div class="d"><br></div>						<div class="p">1916年12月，著名教育家、思想家、民主主义革命家蔡元培出任北京大学校长，对北大进行了卓有成效的改革。众多革新人物和学术大师云集北大，倡导民主与科学精神，弘扬爱国与进步思想，促进新思潮的传播和学术的繁荣，使北大成为新文化运动的中心，五四运动的发祥地，传播马克思主义和创建北方地区中国共产党组织的最初基地。这是北大发展史上一个辉煌时期，奠定了北大的光荣革命传统和优良学术传统。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47ca5bff82.png" alt="" title="">
+<div class="year">
+	<div class="h">1927-1937</div>
+	<span></span>
+		<a  href="detail/907.html"></a></div></div>					<div class="text">
+						<div class="h">三十年代的北京大学</div>						<div class="d"><br></div>						<div class="p">1927至1929年，北京大学处于动荡之中。奉系军阀攫取北京政权后，实行恐怖统治，悍然杀害了北大教授李大钊等人，把具有民主传统的北京大学视为眼中钉，1927年8月颁令将北京大学与北京其他国立八校合并组成国立京师大学校。1928年6月，国民党军队进入北京，奉系军阀退出关外，北大师生开展复校斗争，发表《北大宣言》：“我们北京大学受军阀恶势力的摧残已经整整一年了。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47cbc9fafa.png" alt="" title="">
+<div class="year">
+	<div class="h">1937-1946</div>
+	<span></span>
+		<a  href="detail/908.html"></a></div></div>					<div class="text">
+						<div class="h">西南联合大学时期的北京大学</div>						<div class="d"><br></div>						<div class="p">1937年7月7日，卢沟桥事变爆发。月底，北平、天津相继陷落。9月，奉教育部令，北京大学与清华大学、南开大学南迁至湘，合组长沙临时大学。北大校长蒋梦麟、清华校长梅贻琦、南开校长张伯苓为临时大学筹备委员会常务委员，组成常委会主持校务。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47cd0a76bb.png" alt="" title="">
+<div class="year">
+	<div class="h">1946-1949</div>
+	<span></span>
+		<a  href="detail/909.html"></a></div></div>					<div class="text">
+						<div class="h">复员后的北京大学</div>						<div class="d"><br></div>						<div class="p">复员后的北京大学迁回北平原校址。1946年7月，新任校长胡适（蒋梦麟辞去北大校长职务后，1945年9月由胡适接替，胡适到任前由傅斯年代行）宣布北大重要教职员人选。1946年7、8月，北大奉教育部令先后接收了北平临时大学补习班一至四分班及第六分班，1947年8月，北洋大学北平部并入北京大学。为安置北返的师生和临大补习班的学生，扩大校舍迫在眉睫。经多方奔走，争取到改建后的相公府、东厂胡同的黎元洪故居、旧国会大厦等多处房舍，扩充后的校舍分散在城区和郊区，达40处之多。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47ce4c31e8.png" alt="" title="">
+<div class="year">
+	<div class="h">1949-1966</div>
+	<span></span>
+		<a  href="detail/910.html"></a></div></div>					<div class="text">
+						<div class="h">新中国成立后十七年的北京大学</div>						<div class="d">1949年10月1日，中华人民共和国成立，北京大学步入新纪元。<br></div>						<div class="p">1949年1月31日，北平和平解放。2月28日，北平军事管制委员会文化接管委员会正式接管北大。5月4日，北大成立校务委员会成立，汤用彤任主席。1951年6月，马寅初出任新中国成立后的第一任校长。1956年6月，学校开始实行党委领导下的分工负责制，江隆基任第一书记。1957年10月，陆平任校党委第一书记，并于1960年3月起兼任校长。1962年2月，北京大学的领导体制明确为党委领导下的以校长为首的校务委员会负责制。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47cffa3e5c.png" alt="" title="">
+<div class="year">
+	<div class="h">1966-1976</div>
+	<span></span>
+		<a  href="detail/911.html"></a></div></div>					<div class="text">
+						<div class="h">“文化大革命”时期的北京大学</div>						<div class="d"><br></div>						<div class="p">1966年5月16日，中共中央通过了“五·一六通知”，标志着“文化大革命”的开始。在康生及其妻曹轶欧的策划下，哲学系聂元梓等于5月25日贴出了题为《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》的大字报，诬陷、攻击北京大学党委和北京市委。6月1日，中央人民广播电台根据毛泽东主席的批示，全文播发了这张大字报。当晚，华北局派驻北京大学工作组进校。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47d15ec21f.png" alt="" title="">
+<div class="year">
+	<div class="h">1976-1999</div>
+	<span></span>
+		<a  href="detail/912.html"></a></div></div>					<div class="text">
+						<div class="h">改革开放时期的北京大学</div>						<div class="d"><br></div>						<div class="p">1976年10月，中共中央一举粉碎“四人帮”，结束了十年“文革”动乱。党和政府对北京大学十分关心，邓小平等中央领导同志多次接见校领导，对北大工作作出重要指示。北京大学遵照党中央拨乱反正的方针，积极开展对教育界“两个估计”的批判；踊跃参加实践是检验真理唯一标准问题的大讨论；平反“文革”中的冤假错案，落实党的干部和知识分子政策，复查、改正1957年错划“右派”和解决1959年“反右倾”遗留问题等项工作，共解决历史遗留问题2860件。</div>					</div>
+				</div>
+				<div class="item">
+					<div class="pic"><img src="Uploads/Picture/2019/12/14/s5df47d3bece37.png" alt="" title="">
+<div class="year">
+	<div class="h">2000 - 2008</div>
+	<span></span>
+		<a  href="detail/913.html"></a></div></div>					<div class="text">
+						<div class="h">步入21世纪的北京大学</div>						<div class="d"><br></div>						<div class="p">创建世界一流大学是北京大学面向21世纪提出的宏伟规划，是世纪之初指导北京大学各项建设的纲领。在国家“211工程”和“985工程”建设经费的支持下，北大以创建世界一流大学为目标，坚持“追求真理、追求卓越、培养人才、繁荣学术、服务人民、造福社会”“的理念，以学科发展为重点，以队伍建设为核心，以体制与机制创新为动力，全面推进理论创新、制度创新、科技创新和教育创新，进一步提高学科建设、科学研究、师资队伍、学校管理的水平，提高教育质量和办学效益，充分发挥培养高层次创新人才、发展文化科学技术、解决国家经济建设和社会发展重大问题的作用。</div>					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){
+});
+$(window).load(function(){
+	autolist();
+});
+var sto;
+$(window).resize(function(){
+	clearTimeout(sto);
+	sto=setTimeout(function(){
+		autolist();
+	},500);
+});
+function autolist(){
+	$(".list .item").removeClass("l");
+	$(".list .item").removeClass("r");
+	if($(window).width()>835){
+		var t1=0,t2=$(".list").width()*0.15;
+		$(".list .item").each(function(index, element) {
+			if((index+1)==$(".list .item").size()){return false;}
+			if(t1<=t2){
+				if($(this).outerHeight()+t1>=t2){
+					$(this).addClass("l");
+					$(this).css({top:t1});
+					t1=$(this).outerHeight()+t1;
+				}
+				else{
+					$(this).addClass("r");
+					$(this).css({top:t2});
+					t2=$(this).outerHeight()+t2;
+				}
+			}
+			else{
+				if($(this).outerHeight()+t2>=t1){
+					$(this).addClass("r");
+					$(this).css({top:t2});
+					t2=$(this).outerHeight()+t2;
+				}
+				else{
+					$(this).addClass("l");
+					$(this).css({top:t1});
+					t1=$(this).outerHeight()+t1;
+				}
+			}
+		});
+		$(".list .item:last").removeClass("l").removeClass("r");
+		if(t1>=t2){
+			$(".list .item:last").css({top:t1});
+			$(".list").height(t1+$(".list .item:last").outerHeight());
+		}
+		else{
+			$(".list .item:last").css({top:t2});
+			$(".list").height(t2+$(".list .item:last").outerHeight());
+		}
+	}
+	else{
+		$(".list").height("auto");
+	}
+}
+</script>
+    <div class="footer">
+    <div class="part1">
+        <div class="nav_foot"><div class="inner">
+	<a  href="http://pkunews.pku.edu.cn/" >新闻</a><a  href="recruit.html" >招生</a><a  href="https://hr.pku.edu.cn/rczp/jxky/index.htm" >招聘</a><a  href="http://www.pkuef.org/" >捐赠</a><a  href="visit.html" >校园地图</a><a  href="visit.html#p5" >校历</a><a  href="close-up_pku2021.html" >燕园特写</a><a  href="https://bbs.pku.edu.cn/" >未名BBS</a></div></div>        <div class="share"><div class="share-box bdsharebuttonbox"> 
+    <a class="share-item icon-wchat" title="分享到微信">
+        <span class="code"><img src="Uploads/Picture/2019/12/27/s5e05ab4267239.jpg" alt="" title=""></span></span>
+    </a> 
+    <a class="share-item icon-sinawb" data-cmd="tsina" title="分享到新浪微博">
+        <span class="code"><img src="Uploads/Picture/2019/12/31/s5e0aa9359ae68.png" alt="" title=""></span>
+    </a>
+    <!-- <a class="share-item icon-txwb" data-cmd="tqq" title="分享到腾讯微博">
+        <span class="code"><img src="/Uploads/Picture/2019/12/31/s5e0aa9359ae68.png" alt="" title=""></span>
+    </a>  -->
+</div></div>    </div>
+    <div class="part2">
+        <div class="logo"><a  href="index-2.html" >
+    <img  src="Uploads/Picture/2019/12/05/s5de8762313bab.png" title="" alt="" />
+</a></div>        <div id="footinfo" class="info"><span><a  style="cursor:default ;">版权所有©北京大学</a></span>
+    |<span><a  style="cursor:default ;">地址：北京市海淀区颐和园路5号</a></span>
+    |<span><a  style="cursor:default ;">邮编：100871</a></span>
+    |<span><a  style="cursor:default ;">反馈意见：its@pku.edu.cn</a></span>
+    |<span><a  href="https://beian.miit.gov.cn/" target="_blank" >京ICP备05065075号-1</a></span>
+    |<span><a  href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=110402430047" target="_blank" >京公网安备 110402430047 号</a></span>
+    <span></span>
+<!-- <script type="text/javascript">
+	$('#footinfo b:last').remove();
+</script>
+ --></div>    </div>
+</div>
+<div class="layer" id="search"><span class="close" onClick="hidelayer('#search')">&#xe798;</span>
+    <div class="search_box">
+         <input id="searchKeyword" type="text" placeholder="Search..." class="kw" onkeydown="searchkeydown(event, '#searchOk')">
+        <input type="button" placeholder="" id="searchOk" onclick="bingsearch();return false;" class="ok" value="搜索">
+    </div>
+</div>
+<script>
+function bingsearch(){
+    if($("input#searchKeyword").val()==""){
+        my_alert('请输入关键字');
+        return false;
+    }
+    var key = $("input#searchKeyword").val()+"+site:pku.edu.cn";
+    var url = 'https://cn.bing.com/search?ensearch=1&q=' + encodeURI(key);
+    window.open(url);
+    hidelayer('#search')
+    $("input#searchKeyword").val("");
+}
+function searchkeydown(e, but) {
+     var currKey=0,e=e||event;
+     var _this = $(but);
+     if(e.keyCode==13)
+     {
+         _this.click();
+         return false;
+     }
+}
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hmed9a.js?c7896bb34c3be32ea17322b5412545c0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+
+<!-- Mirrored from www.pku.edu.cn/shiYuan.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 07:31:55 GMT -->
+</html>
+

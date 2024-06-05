@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 05 Jun 2024 15:29:03 at https://www.pku.edu.cn/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" https://www.pku.edu.cn/ -O1 "D:\sitHTTrack\pinking" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:31:55	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/Public/static/themes/css/mCSB_buttons.png (from https://www.pku.edu.cn/Public/static/themes/css/jquery.mCustomScrollbar.css)
+15:31:56	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/Public/static/themes/image/arrow7.png (from https://www.pku.edu.cn/Public/static/themes/css/global.css)
+15:31:56	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/Public/static/themes/image/bg14.svg (from https://www.pku.edu.cn/Public/static/themes/css/global.css)
+15:31:56	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/Public/static/themes/image/bg5.svg (from https://www.pku.edu.cn/Public/static/themes/css/global.css)
+15:31:56	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/home/close-up_pku2021.html (from https://www.pku.edu.cn/home/student.html)
+15:38:34	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/image/pic83.jpg (from https://www.pku.edu.cn/close-up_pku2024.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/mathScience/p/_PAGENUM_.html (from https://www.pku.edu.cn/mathScience.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/detail/close-up_pku2021.html (from https://www.pku.edu.cn/detail/902.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/periodical/p/_PAGENUM_.html (from https://www.pku.edu.cn/periodical.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/Uploads/www.phy.pku.edu.cn/yq20/ (from https://www.pku.edu.cn/close-up_pku2021.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/academician/p/_PAGENUM_.html (from https://www.pku.edu.cn/academician.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/developing_countries/p/_PAGENUM_.html (from https://www.pku.edu.cn/developing_countries.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/national_famous_teacher/p/_PAGENUM_.html (from https://www.pku.edu.cn/national_famous_teacher.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/img/vis/20171026163443007806.zip (from https://www.pku.edu.cn/detail/1096.html)
+15:38:50	Error: 	"Error when decompressing" (-1) at link https://www.pku.edu.cn/Uploads/httpï¼//www.pku.edu.cn/ (from https://www.pku.edu.cn/close-up_pku2018.html)
+15:38:50	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/yytx/xqzttg/index.htm (from https://www.pku.edu.cn/close-up_pku2018.html)
+15:38:51	Warning: 	Moved Permanently for www.pku.edu.cn/robots.txt
+15:38:51	Warning: 	Redirected link is identical because of 'URL Hack' option: www.pku.edu.cn/robots.txt and https://www.pku.edu.cn/robots.txt
+15:38:51	Warning: 	Warning moved treated for www.pku.edu.cn/robots.txt (real one is https://www.pku.edu.cn/robots.txt)
+15:38:51	Error: 	"Forbidden" (403) at link www.pku.edu.cn/tzgg/tzggxx/index.htm?id=269751 (from https://www.pku.edu.cn/close-up_pku2017.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/index.htm (from https://www.pku.edu.cn/close-up_pku2016.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/notice/close-up_pku2021.html (from https://www.pku.edu.cn/notice/years.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/chemistry/p/_PAGENUM_.html (from https://www.pku.edu.cn/chemistry.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/earthScience/p/_PAGENUM_.html (from https://www.pku.edu.cn/earthScience.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/InformationScience/p/_PAGENUM_.html (from https://www.pku.edu.cn/InformationScience.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/TechnologicalScience/p/_PAGENUM_.html (from https://www.pku.edu.cn/TechnologicalScience.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/LifeMedicine/p/_PAGENUM_.html (from https://www.pku.edu.cn/LifeMedicine.html)
+15:38:51	Error: 	"Not Found" (404) at link https://www.pku.edu.cn/procedure/close-up_pku2021.html (from https://www.pku.edu.cn/procedure/yxxq.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 48 seconds : 2524 links scanned, 2497 files written (1680409083 bytes overall) [1674871972 bytes received at 2848421 bytes/sec], 8349815 bytes transferred using HTTP compression in 310 files, ratio 24%, 61.6 requests per connection
+(25 errors, 3 warnings, 0 messages)
