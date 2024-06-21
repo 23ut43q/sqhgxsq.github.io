@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification"
+      content="dazK787e95mvPCnXZer9b4Ya6UpoUx8ovAFt3KuTxwE" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta name="description"
+      content="  河南省商丘市回高学生区，专属于学生的回高官网！这里有及时的新闻，海量回高最新消息，内容来自回高官网的直接搬运，与商丘回高官网信息实现同步共享！你想了解的都在这里，美丽回高欢迎您！">
+    <meta name="keywords" content="回高,商丘市回民中学,回民高中,商丘市回高,回民高级中学,河南回高,回中,商丘市回民高中">
+    <title>商丘回高 【一个数字化高中】</title>
+    <!--  -->
+    <link rel="stylesheet" href="../bk/s-global.css">
+    <link rel="stylesheet" href="../bk/s-body1.css">
+    <link rel="stylesheet" href="../bk/s-body2.css">
+    <link rel="stylesheet" href="../bk/s-body3.css">
+    <link rel="stylesheet" href="../bk/s-body4.css">
+    <link rel="stylesheet" href="../bk/s-body5.css">
+    <link rel="stylesheet" href="../bk/s-body6.css">
+    <link rel="stylesheet" href="../bk/s-body7.css">
+    <link rel="stylesheet" href="../bk/s-body8.css">
+    <link rel="stylesheet" href="../bk/s-header.css">
+    <link rel="stylesheet" href="../bk/s-footer.css">
+    <!--  -->
+    <link rel="Shortcut Icon" href="../img/数字化高中.ico" type="image/x-icon" />
+ <style>
+ h1 {
+ text-align: center;
+ }
+ 
+ div {
+ width: 400px;
+ height: 400px;
+ margin: 10px auto;
+ padding: 0;
+ }
+ </style>
+ </head>
+ <!--  -->
+  
+
+ <body bgcolor="black">
+  <header class="icon-f">
+    <div onclick="window.location.href='http://www.sqshmzx.net/'"
+      class="icon"></div>
+    <h1 style="color: white;float: left;">商丘市回民中学</h1>
+    <div class="header-text">
+      <a href="../News/Hall.html">所有产品</a>
+      <a href="../Genshin/ys.mihoyo.com/index96bc.html">宣传页</a>
+      <a href>解决方案</a>
+      <a href="../pinking/www.pku.edu.cn/index.html">新官网建设中</a>
+      <a href="../Web/index.html">数字化可视化</a>
+      <a href="../xunleidejianke/index.html">循雷的剑客</a>
+      <a href>
+        <?xml version="1.0" ?><svg class="feather feather-search"
+          fill="none" height="24" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          viewBox="0 0 24 24" width="24"
+          xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8" /><line
+            x1="21" x2="16.65" y1="21" y2="16.65" /></svg>
+      </a>
+      <a href="../Login/Login.html">
+        <?xml version="1.0" ?><svg class="feather feather-user"
+          fill="none" height="24" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          viewBox="0 0 24 24" width="24"
+          xmlns="http://www.w3.org/2000/svg"><path
+            d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle
+            cx="12" cy="7" r="4" /></svg>
+      </a>
+    </div>
+  </header>
+ <div style="margin: auto 50%;">
+ <canvas id="c1" width="400px" height="400px">
+ 
+ </canvas>
+ </div>
+ 
+ 
+ <script type="text/javascript">
+ var clock = document.getElementById("c1").getContext("2d");
+ 
+// var clock = $("#huabu").get(0).getContext("2d"); //$中使用画布
+ 
+ function play() {
+ clock.clearRect(0, 0, 400, 400);
+ clock.save();
+ clock.translate(200, 200); //把画布中心转移到canvas中间
+ biaopan();
+ run();
+ clock.restore();
+ }
+ setInterval(function() {
+ play();
+ }, 1000);
+ 
+ function biaopan() {
+ //绘制表盘
+ clock.strokeStyle = "#ffffff";
+ clock.lineWidth = 5;
+ clock.beginPath();
+ clock.arc(0, 0, 195, 0, 2 * Math.PI);
+ clock.stroke();
+ 
+ //刻度(小时)
+ clock.strokeStyle = "#fefefe";
+ clock.lineWidth = 5;
+ for(var i = 0; i < 12; i++) {
+  clock.beginPath();
+  clock.moveTo(0, -190);
+  clock.lineTo(0, -170);
+  clock.stroke();
+  clock.rotate(2 * Math.PI / 12);
+ }
+ //刻度(分钟)
+ clock.strokeStyle = "#cbcb41";
+ clock.lineWidth = 3;
+ for(var i = 0; i < 60; i++) {
+  clock.beginPath();
+  clock.moveTo(0, -190);
+  clock.lineTo(0, -180);
+  clock.stroke();
+  clock.rotate(2 * Math.PI / 60);
+ }
+ //绘制文字
+ clock.textAlign = "center";
+ clock.textBaseline = "middle";
+ clock.fillStyle = "#edf2fa";
+ clock.font = "20px 微软雅黑"
+ for(var i = 1; i < 13; i++) {
+  clock.fillText(i,Math.sin(2*Math.PI /12*i)*150,Math.cos(2*Math.PI/12*i)*-150);
+ }
+ }
+ 
+ function run() {
+ var date = new Date();
+ var h = date.getHours();
+ var m = date.getMinutes();
+ var s = date.getSeconds();
+// if(h > 12) {
+//  h = h - 12;
+// }
+ //日期
+//  var week = date.getDay();
+//  var month = date.getMonth() + 1;
+//  var day = date.getDate();
+//  switch (week){
+//   case 1: week = "星期一";
+//   break;
+//   case 2: week = "星期二";
+//   break;
+//   case 3: week = "星期三";
+//   break;
+//   case 4: week = "星期四";
+//   break;
+//   case 5: week = "星期五";
+//   break;
+//   case 6: week = "星期六";
+//   break;
+//   default: week = "星期天";
+//   break;
+//  }
+//  clock.save();
+//  clock.textAlign = "center";
+//  clock.textBaseline = "middle";
+//  clock.fillStyle = "black";
+//  clock.font = "16px"
+//  clock.fillText(week,-2,-118);
+//  clock.fillText(month+" 月",-90,2);
+//  clock.fillText(day+" 号",90,0);
+//  clock.stroke();
+//  clock.restore();
+ 
+ //时针
+ //分针60格 分针5格 
+ clock.save();
+ clock.rotate(2 * Math.PI / 12 * h + (2 * Math.PI / 60 * m + 2 * Math.PI / 60 * s / 60) / 12);
+ clock.strokeStyle = "#ffff1b";
+ clock.lineWidth = 7;
+ clock.beginPath();
+ clock.moveTo(0, 0);
+ clock.lineTo(0, -80);
+ clock.lineCap = "round";
+ clock.stroke();
+ clock.restore();
+ //分针
+ //秒针60格 分针一格
+ clock.save();
+ clock.beginPath();
+ clock.strokeStyle = "#D2691E";
+ clock.lineWidth = 5;
+ clock.rotate(2 * Math.PI / 60 * m + 2 * Math.PI / 60 * s / 60);
+ clock.moveTo(0, 0);
+ clock.lineTo(0, -110);
+ clock.lineCap = "round";
+ clock.stroke();
+ clock.restore();
+ //秒针
+ clock.strokeStyle = "red";
+ clock.rotate(2 * Math.PI / 60 * s);
+ clock.lineWidth = 4;
+ clock.beginPath();
+ clock.moveTo(0, 0);
+ clock.lineTo(0, -120);
+ clock.lineCap = "round";
+ clock.stroke();
+ //中心
+ clock.fillStyle = " #CCFFFF";
+ clock.lineWidth = 5;
+ clock.beginPath();
+ clock.arc(0, 0, 10, 0, 2 * Math.PI);
+ clock.fill();
+ clock.strokeStyle = "cadetblue";
+ clock.stroke();
+ 
+ }
+ </script>
+ </body>
+ 
+</html>
